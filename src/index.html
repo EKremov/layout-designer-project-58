@@ -6,18 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>layout-designer-project-58 user-98b824c502008269</title>
 
+    <link rel="stylesheet" type="text/css" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
-        <h1 class="h-72 orange">Когнитивные искажения <span class="h-72 dark">в программировании</span></h1>
-        <img src="src/assets/images/main.png" alt="main">
-        <section>
+    <header class="head bg-img">
+        <h1 class="h-72 orange header-h">Когнитивные<br>искажения<br><span class="h-72 dark">в программировании</span></h1>
+        <div class="main-img">
+            <img src="assets/images/main.png" alt="main">
+        </div>
+        <section class="col-2">
             <p class="dark">Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. 
                 Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
             <p class="dark">Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.
                 Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
-            <button class="btn">подробнее</button>
+            <button class="btn"><a href="#last-section">Подробнее</a></button>
         </section>
     </header>
 
@@ -32,31 +35,31 @@
             <div></div>
         </section>
 
-        <nav class="d-flex bgc-brown">
+        <nav class="d-flex bgc-dark">
             <div>
                 <h3 class="orange">5 когнитивных искажений<span class="white">о существовании которых стоит помнить</span></h3>
             </div>
-            <div class="bgc-grey">
+            <div class="bgc-ligth">
                 <p class="num">1</p>
                 <h3 class="orange h-34">Эффект ИКЕА</h3>
                 <p class="dark">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
             </div>
-            <div class="bgc-grey">
+            <div class="bgc-ligth">
                 <p class="num">2</p>
                 <h3 class="orange h-34">Преждевременная оптимизация</h3>
                 <p class="dark">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
             </div>
-            <div class="bgc-grey">
+            <div class="bgc-ligth">
                 <p class="num">3</p>
                 <h3 class="orange h-34">Искажение новизны</h3>
                 <p class="dark">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
             </div>
-            <div class="bgc-grey">
+            <div class="bgc-ligth">
                 <p class="num">4</p>
-                <h3 class="orange">Гиперболическое обесценивание</h3>
+                <h3 class="orange h-34">Гиперболическое обесценивание</h3>
                 <p class="dark">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
             </div>
-            <div class="bgc-grey">
+            <div class="bgc-ligth">
                 <p class="num">5</p>
                 <h3 class="orange h-34">Ошибка планирования</h3>
                 <p class="dark">Неправильно рассчитывать время необходимое для завершения задачи.</p>
@@ -68,15 +71,15 @@
             <div class="col-2 d-flex flex-column">
                 <section class="block">
                     <p class="dark-50 subtitle">Когнитивные искажения</p>
-                    <h5 class="dark h-60 h-section">Эффект ИКЕА</h5>
+                    <h2 class="dark h-60 h-section">Эффект ИКЕА</h2>
                     <h3 class="h-34 dark p-section">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</h3>
                 </section>
                 <div class="text-left">
-                    <img src="src/assets/images/1.png" alt="Эффект IKEA">
+                    <img src="assets/images/1.png" alt="Эффект IKEA">
                 </div>
             </div>
         
-            <div class="brown-light">
+            <div class="bgc-brown">
                 <p class="white">Как проявляется</p>
             </div>
         
@@ -89,21 +92,21 @@
         
         </div>
 
-        <div class="brown-section">
+        <div class="brown-section bgc-brown">
         
             <div class="col-2 d-flex flex-column">
                 <section class="block">
                     <p class="white-50 subtitle">Когнитивные искажения</p>
-                    <h5 class="white h-60 h-section">Преждевременная оптимизация</h5>
+                    <h2 class="white h-60 h-section">Преждевременная оптимизация</h2>
                     <h3 class="h-34 white p-section">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</h3>
                 </section>
                 <div class="text-right">
-                    <img src="src/assets/images/2.png" alt="Преждевременная оптимизация">
+                    <img src="assets/images/2.png" alt="Преждевременная оптимизация">
                 </div>
             </div>
         
             <div class="bgc-white">
-                <p class="brown-light">Как проявляется</p>
+                <p class="brown">Как проявляется</p>
             </div>
         
             <div class="col-2">
@@ -118,15 +121,15 @@
             <div class="col-2 d-flex flex-column">
                 <section class="block">
                     <p class="dark-50 subtitle">Когнитивные искажения</p>
-                    <h5 class="dark h-60 h-section">Искажение новизны</h5>
+                    <h2 class="dark h-60 h-section">Искажение новизны</h2>
                     <h3 class="h-34 dark p-section">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</h3>
                 </section>
                 <div class="text-left">
-                    <img src="src/assets/images/3.png" alt="Искажение новизны">
+                    <img src="assets/images/3.png" alt="Искажение новизны">
                 </div>
             </div>
         
-            <div class="brown-light">
+            <div class="bgc-brown">
                 <p class="white">Как проявляется</p>
             </div>
         
@@ -139,21 +142,21 @@
         
         </div>
 
-        <div class="brown-section brown-light">
+        <div class="brown-section bgc-brown">
 
             <div class="col-2 d-flex flex-column">
                 <section class="block">
                     <p class="white-50 subtitle">Когнитивные искажения</p>
-                    <h5 class="white h-60 h-section">Гиперболическое обесценивание</h5>
+                    <h2 class="white h-60 h-section">Гиперболическое обесценивание</h2>
                     <h3 class="h-34 white p-section">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</h3>
                 </section>
                 <div class="text-right">
-                    <img src="src/assets/images/4.png" alt="иперболическое обесценивание">
+                    <img src="assets/images/4.png" alt="иперболическое обесценивание">
                 </div>
             </div>
 
             <div class="bgc-white">
-                <p class="brown-light">Как проявляется</p>
+                <p class="brown">Как проявляется</p>
             </div>
 
             <div class="col-2">
@@ -165,20 +168,20 @@
             </div>
         </div>
 
-        <div class="grey-section bgc-ligth">
+        <div id="last-section" class="grey-section bgc-ligth">
 
             <div class="col-2 d-flex flex-column">
                 <section class="block">
                     <p class="dark-50 subtitle">Когнитивные искажения</p>
-                    <h5 class="dark h-60 h-section">Ошибка планирования</h5>
+                    <h2 class="dark h-60 h-section">Ошибка планирования</h2>
                     <h3 class="h-34 dark p-section">Неправильно рассчитывать время необходимое для завершения задачи.</h3>
                 </section>
                 <div class="text-left">
-                    <img src="src/assets/images/5.png" alt="Ошибка планирования">
+                    <img src="assets/images/5.png" alt="Ошибка планирования">
                 </div>
             </div>
 
-            <div class="brown-light">
+            <div class="bgc-brown">
                 <p class="white">Как проявляется</p>
             </div>
 

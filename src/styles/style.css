@@ -21,14 +21,26 @@
 
 @font-face {
   font-weight: 400;
+  font-style: normal;
   font-family: Neucha;
-  src: url("../assets/fonts/Neucha/Neucha-Regular.ttf") format("ttf");
+  src: local('Neucha'),
+  url("../assets/fonts/Neucha-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-weight: 400;
+  font-style: normal;
   font-family: "Open Sans";
-  src: url("../assets/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf") format("ttf");
+  src: local("Open Sans"),
+    url("../assets/fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Open Sans";
+  src: local("Open Sans"),
+    url("../assets/fonts/OpenSans-Bold.ttf") format("truetype");
 }
 
 .white {
@@ -39,10 +51,6 @@
   color: var(--light-white);
 }
 
-.bgc-gery {
-  background-color: var(--light);
-}
-
 .bgc-white {
   background-color: var(--white);
 }
@@ -51,12 +59,16 @@
   background-color: var(--light);
 }
 
-.orange {
-  color: var(--primary);
+.bgc-brown {
+  background-color: var(--brown);
 }
 
-.bgc-brown {
-  color: var(--primary-dark);
+.bgc-dark {
+  background-color: var(--dark);
+}
+
+.orange {
+  color: var(--primary);
 }
 
 .dark {
@@ -67,8 +79,8 @@
   color: var(--light-dark);
 }
 
-.brown-light {
-  background-color: var(--brown);
+.brown {
+  color: var(--brown);
 }
 
 .blue {
@@ -109,7 +121,62 @@ header,
 main,
 footer {
   width: 1110px;
-  padding: 100px 0;
 
   text-align: center;
+}
+
+header,
+footer {
+  padding: 100px 0;
+}
+
+main > * {
+  padding: 100px 0;
+}
+
+.bg-img::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../assets/images/background.png");
+  opacity: 10%;
+  height: 100%; 
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.head {
+  position: relative;
+  background-color: var(--light);
+}
+
+.header-h {
+  text-align: left;
+}
+
+.main-img{
+  height: 525px;
+  top: 55px;
+  position: absolute;
+  right: -270px;
+}
+
+.col-2 {
+  columns: 540px 2;
+  column-gap: 30px;
+  text-align: left;
+}
+
+.btn {
+  padding: 12px 24px;
+  background-color: var(--primary);
+}
+
+.btn > a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: bold;
+  text-transform: uppercase;
 }
