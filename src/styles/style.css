@@ -62,9 +62,9 @@ h1,
 h2,
 h3 {
   color: var(--primary);
+  font-weight: 400;
   font-size: 72px;
   font-family: Neucha, cursive;
-  font-weight: 400;
   font-style: normal;
   line-height: 1.2em;
 }
@@ -184,6 +184,10 @@ input {
   padding: 15px;
 }
 
+iframe {
+  border: none;
+}
+
 /* HEADER SECTION START */
 
 .head {
@@ -233,7 +237,7 @@ body > header > div.section-width {
   gap: 30px;
 }
 
-body > header > div > section > section > p:nth-child(2) {
+.br-bf {
   break-before: column;
 }
 
@@ -242,18 +246,18 @@ body > header > div > section > section > p:nth-child(2) {
 }
 
 .btn {
+  margin-top: 40px;
   padding: 12px 24px;
 
   color: var(--white);
   font-weight: bold;
+  font-size: 16px;
+  line-height: 1.6em;
   text-transform: uppercase;
   text-decoration: none;
 
   background-color: var(--primary);
-
   cursor: pointer;
-
-  margin-top: 40px;
 }
 
 .btn:hover {
@@ -319,12 +323,11 @@ body > header > div > section > section > p:nth-child(2) {
 .num {
   margin: 0 0 40px;
 
+  font-weight: 400;
   font-size: 64px;
   font-family: Neucha, cursive;
-  line-height: 1;
-
-  font-weight: 400;
   font-style: normal;
+  line-height: 1;
 }
 
 /* NAV SECTION END */
@@ -386,13 +389,19 @@ body > header > div > section > section > p:nth-child(2) {
 
 .btn-ft {
   position: relative;
-  top: -5px;
+  top: -4px;
   left: -5px;
 
   width: 70px;
   height: 50px;
 
   background-color: var(--primary);
+}
+
+.btn-ft:hover {
+  background-color: #ea7600;
+
+  cursor: pointer;
 }
 
 .btn-ft::before {
