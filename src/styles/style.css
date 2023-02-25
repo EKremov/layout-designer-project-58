@@ -216,6 +216,10 @@ input {
   background-size: contain;
 }
 
+body > header > div.section-width {
+  padding-bottom: 40px;
+}
+
 .col-2 {
   columns: 540px 2;
   column-gap: 30px;
@@ -232,7 +236,7 @@ body > header > div > section > section > p:nth-child(2) {
 }
 
 .head-col-pos {
-  top: -60px;
+  top: -50px;
 }
 
 .btn {
@@ -366,7 +370,7 @@ body > header > div > section > section > p:nth-child(2) {
 }
 
 .no-reverse {
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 
 /* BIASES-SECTIONS END */
