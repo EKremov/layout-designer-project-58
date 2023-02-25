@@ -63,7 +63,9 @@ h2,
 h3 {
   color: var(--primary);
   font-size: 72px;
-  font-family: Neucha, sans-serif;
+  font-family: Neucha, cursive;
+  font-weight: 400;
+  font-style: normal;
   line-height: 1.2em;
 }
 
@@ -197,7 +199,7 @@ input {
 }
 
 .head-main-img-pos {
-  top: -55px;
+  top: -53px;
   right: -270px;
 
   width: 100%;
@@ -217,7 +219,7 @@ input {
 }
 
 body > header > div.section-width {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .col-2 {
@@ -236,7 +238,7 @@ body > header > div > section > section > p:nth-child(2) {
 }
 
 .head-col-pos {
-  top: -50px;
+  top: -75px;
 }
 
 .btn {
@@ -250,6 +252,8 @@ body > header > div > section > section > p:nth-child(2) {
   background-color: var(--primary);
 
   cursor: pointer;
+
+  margin-top: 40px;
 }
 
 .btn:hover {
@@ -318,6 +322,9 @@ body > header > div > section > section > p:nth-child(2) {
   font-size: 64px;
   font-family: Neucha, cursive;
   line-height: 1;
+
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* NAV SECTION END */
